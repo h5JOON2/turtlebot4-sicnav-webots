@@ -1,0 +1,10 @@
+sicnav_planner_bridge:
+  ros__parameters:
+    policy: "campc"          # campc (Collision Avoidance MPC) or dwa
+    control_rate_hz: 10.0    # Control loop frequency
+    goal_x: 0.0              # Default navigation goal X [m]
+    goal_y: 5.0              # Default navigation goal Y [m]
+    robot_radius: 0.22       # TurtleBot 4 collision radius [m]
+    max_linear_speed: 0.45   # Max forward velocity [m/s]
+    max_angular_speed: 1.5   # Max angular velocity [rad/s]
+

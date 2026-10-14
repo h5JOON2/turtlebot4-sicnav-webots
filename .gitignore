@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python Virtual Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary / Cache
+.cache/
+.pytest_cache/
